@@ -272,9 +272,4 @@ header {
     .footer-social{
         align-items:center;
     }
-
-    .footer-links a:hover,
-    .footer-social a:hover{
-        padding-left:0;
-    }
 }
