@@ -283,7 +283,7 @@ body.menu-open {
 
     .footer-links,
     .footer-social{
-        align-items:flex-start;
+        align-items:center;
     }
 
     .footer-links h3,
