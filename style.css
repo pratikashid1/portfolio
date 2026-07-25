@@ -326,7 +326,6 @@ body.menu-open {
     max-width:100%;
     position:relative;
     z-index:1;
-    animation:float 4s ease-in-out infinite;
 }
 
 /* Floating Animation */
@@ -347,16 +346,6 @@ body.menu-open {
 
 }
 
-/* Scroll Down */
-
-.scroll-down{
-    position:absolute;
-    bottom:30px;
-    left:50%;
-    transform:translateX(-50%);
-    font-size:2rem;
-    animation:bounce 1.5s infinite;
-}
 
 @keyframes bounce{
 
@@ -375,7 +364,7 @@ body.menu-open {
 @media(max-width:900px){
 
 .hero{
-    padding:120px 30px 60px;
+    padding:10px 30px 60px;
 }
 
 .hero-container{
