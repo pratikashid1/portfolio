@@ -20,15 +20,24 @@ header {
     justify-content: center;
 }
 
-.navbar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    position: sticky;
-    padding: 1rem;
+.navbar{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:80px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+
+    background:#fff;
+    transition:transform .30s ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.navbar.hide{
+    transform:translateY(-100%);
 }
 
 .navbar-container {
@@ -207,7 +216,7 @@ body.menu-open {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 8% 60px;
+    padding: 80px 8% 60px;
     background: #fff;
 }
 
@@ -365,7 +374,7 @@ body.menu-open {
 @media(max-width:900px) {
 
     .hero {
-        padding: 10px 30px 60px;
+        padding: 80px 30px 60px;
     }
 
     .hero-container {
