@@ -3,10 +3,20 @@ const menu = document.querySelector(".navbar-menu");
 
 menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
-    menu.classList.toggle("active");
+    menu.classList.toggle("active"); 
     document.body.classList.toggle("menu-open");
 });
 
+// Close menu when a nav link is clicked
+document.querySelectorAll(".navbar-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        menuBtn.classList.remove("active");
+        menu.classList.remove("active");
+        document.body.classList.remove("menu-open");
+    });
+});
+
+// Header active when scroll up
 const navbar = document.querySelector(".navbar");
 
 let lastScroll = 0;
