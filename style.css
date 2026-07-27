@@ -296,25 +296,6 @@ body.menu-open {
     background: #dcdcdcee;
 }
 
-.hero-tech {
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.hero-tech span {
-    padding: 3px 10px;
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    font-size: .9rem;
-    transition: .3s;
-}
-
-.hero-tech span:hover {
-    background: #dcdcdcee;
-}
-
 /* IMAGE */
 
 .hero-image {
@@ -408,10 +389,6 @@ body.menu-open {
     }
 
     .hero-buttons {
-        justify-content: center;
-    }
-
-    .hero-tech {
         justify-content: center;
     }
 
