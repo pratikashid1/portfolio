@@ -1188,3 +1188,52 @@ body.menu-open {
         padding: 10px;
     }
 }
+
+/*=============Socila-icons=============*/
+
+.footer-social-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-social-icon a {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    border: .5px solid #20202079;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-size: 1rem;
+
+    transition: all .1s ease;
+}
+
+.footer-social-icon a:hover {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+@media (max-width:768px) {
+
+    .footer-social-icon {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-social-icon a {
+        width: 45px;
+        height: 45px;
+        font-size: 1.15rem;
+    }
+
+}
