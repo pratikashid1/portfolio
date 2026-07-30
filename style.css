@@ -1128,13 +1128,6 @@ body.menu-open {
     line-height: 1.8;
 }
 
-.footer-social a:hover {
-
-    background: #2563eb;
-    transform: translateY(-5px);
-
-}
-
 @media (max-width:768px) {
 
     .footer-container {
