@@ -731,7 +731,7 @@ body.menu-open {
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 
     .projects {
@@ -1032,7 +1032,7 @@ body.menu-open {
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 
     .certifications {
