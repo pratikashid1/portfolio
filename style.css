@@ -1050,6 +1050,12 @@ body.menu-open {
 
 }
 
+.project-grid,
+.certificate-grid {
+    padding-inline: 10px;
+    scroll-behavior: smooth;
+}
+
 /***************************************Footer****************************************/
 
 .footer {
