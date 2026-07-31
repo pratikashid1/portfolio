@@ -722,32 +722,25 @@ body.menu-open {
 
 }
 
-@media(max-width:900px) {
+@media (max-width: 768px) {
 
     .project-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-    .project-card img {
-
-        height: 200px;
-
-    }
-
-    .project-btns {
-
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-
+        overflow-x: auto;
+        gap: 20px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 10px;
     }
 
-    .project-btns a {
+    .project-grid::-webkit-scrollbar {
+        display: none;
+    }
 
-        text-align: center;
-
+    .project-card {
+        flex: 0 0 90%;
+        scroll-snap-align: center;
     }
 
 }
@@ -1026,14 +1019,25 @@ body.menu-open {
     background: #333;
 }
 
-@media(max-width:900px) {
+@media (max-width: 768px) {
 
     .certificate-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 10px;
     }
 
-    .certificate-card img {
-        height: 180px;
+    .certificate-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .certificate-card {
+        flex: 0 0 90%;
+        scroll-snap-align: center;
     }
 
 }
