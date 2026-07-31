@@ -734,6 +734,10 @@ body.menu-open {
         padding-bottom: 10px;
     }
 
+    .projects {
+        padding: 100px 1%;
+    }
+
     .project-grid::-webkit-scrollbar {
         display: none;
     }
@@ -1029,6 +1033,10 @@ body.menu-open {
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         padding-bottom: 10px;
+    }
+
+    .certifications {
+        padding: 100px 1%;
     }
 
     .certificate-grid::-webkit-scrollbar {
